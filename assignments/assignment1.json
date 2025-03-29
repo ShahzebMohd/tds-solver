@@ -1,0 +1,62 @@
+[
+    {
+        "question_id": "q-wikipedia-outline",
+        "answer": "http://127.0.0.1:8000/api/outline?country=india"
+    },
+    {
+        "question_id": "q-extract-tables-from-pdf",
+        "answer": "20792"
+    },
+    {
+        "question_id": "q-pdf-to-markdown",
+        "answer": "## Extracted Content\n\n### Vesica Auditor Cultura Decipio\n\n> \"Tam saepe pauci commodi vesper aegrotatio. Acies vivo crux tot vito trucido vulticulus vestigium. Dolor cena vulgus ventito vir nostrum cauda administratio vulgo canto.\"\n\n```python\n# Sample Python code for data processing\ndef process_data(data):\n    return [item.upper() for item in data]\n\ndata = [\"tenuis\", \"desipio\", \"clementia\", \"certe\", \"cooperative\", \"bonfire\", \"net\"]\nprocessed_data = process_data(data)\nprint(processed_data)\n```\n\n| Term | Definition |\n|------|------------|\n| Tenuis | Aggredior territo vacuus |\n| Desipio | Curtus |\n| Clementia | Delinquo suspendo aliquam |\n| Certe | Temperantia volubilis |\n| Cinis | Tabgo sufficio brevis |\n| Adsuesco | Thalassinus adicio desolo tabgo |\n| Ab | Circumvenio acidus |\n| Vel | Suscipio copia tepidus claudeo |\n| Terminatio | Carcer |\n| Cooperative | Working together towards a common goal |\n| Bonfire | A large open-air fire |\n| Net | A mesh used for catching or securing things |\n\n[Vigilo vomito collum pauper terror cura peccatus benevolentia ultio nihil](#)\n\n```javascript\n// JavaScript function to format text\nfunction formatText(text) {\n    return text.toUpperCase();\n}\nconsole.log(formatText(\"Hello, World!\"));\n```\n\n| Action | Description |\n|--------|-------------|\n| Sequi | Nobis temporibus bos conspergo |\n| Vomer | Video caritas dicta |\n| Pariatur | Coerceo quis |\n| Arbor | Dolore aeneus barba tandem |\n| Appono | Tonsor vulticulus comburo |\n\n> \"Tardus vitium consequuntur impedit corrupti tamisium derideo. Cubicularis pecco vulgus votum demulceo avaritia deduco admoveo vesica blanditiis. A amitto vorago ulterius neque concedo tolero talio.\"\n\n| Attribute | Value |\n|-----------|--------|\n| Aufero | Placeat cui patria |\n| Suspendo | Vitiosus magni illo |\n| Commodo | Rerum utor tibi |\n| Totus | Volutabrum pauper unus |\n| Cicuta | Acidus tutamen accusator |\n| Recusandae | Barba abstergo deporto |\n\n[Tendo thesaurus vociferor dens thorax altus reiciendis](#).\n\n```sql\n-- SQL query to select data\nSELECT * FROM documents WHERE category = 'education';\n```\n\n- [Urbs tabgo tego](#)\n- [Error succedo quis](#)\n- [Talis considero approbo](#)\n- [Vulgus cur tardus](#)\n- [Delectatio deprecator addo](#)\n- [Cumque culpo textor](#)\n- [Cooperative efforts in teamwork](#)\n- [Bonfire gathering traditions](#)\n- [Net structures in architecture](#)\n\n[Velit delinquo demergo viridis](#)\n\n### Armarium Sunt Audax Sortitus\n\n> \"Ab suppellex catena suscipio substantia stultus sufficio.\"\n\n| Category | Description |\n|----------|------------|\n| Atavus | Vulgus alienus |\n| Delectatio | Aranea crastinus |\n| Considero | Atque blandior |\n| Speculum | Depromo uter |\n| Spero | Arca confero |\n| Uter | Defendo vita |\n| Torqueo | Compono |\n| Beatae | Caput |\n| Absorbeo | Cupressus |\n\n[https://example.com](https://example.com)"
+    },
+    {
+        "question_id": "q-fastapi-proxy",
+        "answer": "?url=https%3A%2F%2Fhttpbin.org%2Fget%3Fx%3D39011"
+    },
+    {
+        "question_id": "q-stackoverflow-common-tags",
+        "answer": "html"
+    },
+    {
+        "question_id": "q-least-unique-subjects-from-csv",
+        "answer": "30,55,84"
+    },
+    {
+        "question_id": "q-extract-tables-from-pdf",
+        "answer": "60923"
+    },
+    {
+        "question_id": "q-duckdb-sales-over-time",
+        "answer": "WITH hourly_sales AS (\n    SELECT \n        date_trunc('hour', CAST(timestamp AS TIMESTAMP)) AS hour,\n        category,\n        SUM(amount) AS total_sales\n    FROM sales\n    GROUP BY 1, 2\n)\nSELECT \n    hour,\n    COALESCE(SUM(CASE WHEN category = 'Electronics' THEN total_sales END), 0) AS Electronics,\n    COALESCE(SUM(CASE WHEN category = 'Clothing' THEN total_sales END), 0) AS Clothing,\n    COALESCE(SUM(CASE WHEN category = 'Furniture' THEN total_sales END), 0) AS Furniture,\n    COALESCE(SUM(CASE WHEN category = 'Toys' THEN total_sales END), 0) AS Toys\nFROM hourly_sales\nGROUP BY hour\nORDER BY hour;"
+    },
+    {
+        "question_id": "q-move-rename-files",
+        "answer": "cd319a6af62693e93de5d27a5204fcb8f2477baa6bca964b21e97c54605c51c1"
+    },
+    {
+        "question_id": "q-llm-embeddings",
+        "answer": "{\n  \"model\": \"text-embedding-3-small\",\n  \"input\": [\n    \"Dear user, please verify your transaction code 86379 sent to roe-23f2002019@ds.study.iitm.ac.in\",\n    \"Dear user, please verify your transaction code 2603 sent to roe-23f2002019@ds.study.iitm.ac.in\"\n  ]\n}"
+    },
+    {
+        "question_id": "q-region-containing-point",
+        "answer": "1,2,1,1,2"
+    },
+    {
+        "question_id": "q-shortest-path-between-cities",
+        "answer": "Madrid, Rome, Istanbul, Dubai, Delhi, Chennai, Colombo"
+    },
+    {
+        "question_id": "q-calculate-correlation",
+        "answer": "0.965"
+    },
+    {
+        "question_id": "q-count-gold-ticket-sales-from-html",
+        "answer": "2107362.53"
+    },
+    {
+        "question_id": "q-region-containing-point",
+        "answer": "\"47,2,53,7,24\""
+    }
+]
